@@ -12,4 +12,4 @@
 - backup and tar
 - device manage
 - email and newsgroup
-- ...
+- more
