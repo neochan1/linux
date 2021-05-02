@@ -13,3 +13,5 @@
 - device manage
 - email and newsgroup
 - more
+- release from linux 
+
