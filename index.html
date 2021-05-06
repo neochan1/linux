@@ -20,9 +20,9 @@
     <title>Welcome</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">DomainName.com</a>
+          <a class="navbar-brand" href="#">DomainName</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,11 +46,11 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" >Explore</a>
+                <a class="nav-link" href="https://www.google.com" >Explore</a>
               </li>
             </ul>
             <form class="d-flex" action="">
-              <input id="inpput1" class="form-control me-2" type="text" placeholder="Search" aria-label="Search" name="word">
+              <input id="inpput1" class="form-control me-2" type="text" placeholder="youtube" aria-label="Search" name="word">
               <button id="btn1" class="btn btn-outline-success" type="submit" onclick="search()">Search</button>
             </form>
           </div>
@@ -66,10 +66,66 @@
         </ul>
     </div> -->
     <div class="main">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Computer HardWare
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>How do we make a computer by ourselves?The following hardware you need to have!</strong> 
+            <ul>
+              <li><a href="https://images.app.goo.gl/kfySNGLa91uR1r4k9">CPU</a></li>
+              <li><a href="https://images.app.goo.gl/tttEQ4eXPALN23K66">Memory</a></li>
+              <li><a href="https://images.app.goo.gl/W9XdjCkbQWdP1J1Y7">Mainborad</a></li>
+              <li><a href="https://images.app.goo.gl/uhPtSZ2PkkwEcHATA">The graphics cards</a></li>
+              <li><a href="https://images.app.goo.gl/twvtnNm4vW78dL1eA">The power source</a></li>
+              <li><a href="https://images.app.goo.gl/apNoyNLdzK8Ww1M97">The box</a></li>
+              <li><a href="https://images.app.goo.gl/pkfwgGXX5HdiJJtdA">Peripherals</a></li>
+              <li><a href="https://images.app.goo.gl/BXVPqHG5MHWYniWUA">Heat dissipation</a></li>
+             <strong>And you can buy these above all in <a href="https://www.jd.com">jingdong</a> or in <a href="https://www.taobao.com">tao bao</a></strong>
+            </ul>
+          </div>
+        </div>
+        <h5 class="accordion-header" id="title">So if we have a DIY computer,how to make it work?</h5>
+        <p>In fact,The main board have almost ready intergrated a unvisible system in it .We can easily install Windows system!</p>
+        <p>What if I do not want to run a Windows system? I want to run a system based on Linux.What should I do?</p>
 
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Computer Operating System
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              In my view,the computer operation system mainly includes two systems below:
+              <ul>
+                <li><a href="https://images.app.goo.gl/3F8sadxdbH6L9e6B7">Windows</a></li>
+                <li><a href="https://images.app.goo.gl/7pMo9rsW36SEiAWs5">Linux</a></li>
+              </ul>
+              <p>In last century,the operation system is installed by a disk.But now,we usually install a system by <a href="https://en.wikipedia.org/wiki/BIOS">BIOS</a>,BIOS is also a system integrated on the main board.</p>
+              <p>Our computer is started by BOIS.We usually set the configure before our computer enter the system.Just press "Del" or "F12"</p>
+              <p>We set started by USB.The most important is you should put a image on you usb.What is image?</p>
+              <p>Actually,image is also a basic system,you can download some image you want on <a href="https://mirrors.tuna.tsinghua.edu.cn/">tsinghuaMirrors</a></p>
+            </div>
+          </div>
+      </div>
     </div>
     <div class="footer">
-        
+      <footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
+        <div class="container">
+          <ul class="bd-footer-links ps-0 mb-3">
+            <li class="d-inline-block"><a href="https://github.com/twbs">GitHub</a></li>
+            <li class="d-inline-block ms-3"><a href="https://twitter.com/getbootstrap">Twitter</a></li>
+            <li class="d-inline-block ms-3"><a href="/docs/5.0/examples/">Examples</a></li>
+            <li class="d-inline-block ms-3"><a href="/docs/5.0/about/overview/">About</a></li>
+          </ul>
+          <p class="mb-0">Designed and built with all the love in the world by the <a href="/docs/5.0/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+          <p class="mb-0">Currently v5.0.0-beta3. Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</p>
+        </div>
+      </footer>
     </div>
 </body>
 </html>

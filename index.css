@@ -7,3 +7,19 @@ h1 {
     padding: 0;
     box-sizing: border-box;
 }
+ul li {
+    list-style: none;
+}
+.navbar {
+    color: lightgreen;
+    background-color: #b6ea7b;
+    
+}
+#title {
+    background-color: #b6ea7b;
+    padding: 10px 10px;
+}
+p {
+    background-color: skyblue;
+    padding: 10px 10px;
+}
